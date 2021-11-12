@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var sharedVM: SharedViewModel = SharedViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            CustomView(sharedVM: sharedVM)
+            Text(sharedVM.myString)
+        }
     }
 }
 
