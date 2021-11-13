@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CA10A8E273F438500AABBF6 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA10A8D273F438500AABBF6 /* SecondView.swift */; };
+		7CA10A90273F56B400AABBF6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA10A8F273F56B400AABBF6 /* SecondViewController.swift */; };
+		7CA10A92273F5DB000AABBF6 /* SecondCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA10A91273F5DB000AABBF6 /* SecondCustomView.swift */; };
 		7CD4CA9E273E80DF00FE423D /* TestXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4CA9D273E80DF00FE423D /* TestXApp.swift */; };
 		7CD4CAA0273E80DF00FE423D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4CA9F273E80DF00FE423D /* ContentView.swift */; };
 		7CD4CAA2273E80E100FE423D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4CAA1273E80E100FE423D /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7CA10A8D273F438500AABBF6 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		7CA10A8F273F56B400AABBF6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7CA10A91273F5DB000AABBF6 /* SecondCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCustomView.swift; sourceTree = "<group>"; };
 		7CD4CA9A273E80DF00FE423D /* TestX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD4CA9D273E80DF00FE423D /* TestXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXApp.swift; sourceTree = "<group>"; };
 		7CD4CA9F273E80DF00FE423D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +42,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CA10A8C273F436900AABBF6 /* Using Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				7CA10A8D273F438500AABBF6 /* SecondView.swift */,
+				7CA10A91273F5DB000AABBF6 /* SecondCustomView.swift */,
+				7CA10A8F273F56B400AABBF6 /* SecondViewController.swift */,
+			);
+			path = "Using Coordinator";
+			sourceTree = "<group>";
+		};
+		7CA10A93273F642600AABBF6 /* Using Observable Object */ = {
+			isa = PBXGroup;
+			children = (
+				7CD4CA9F273E80DF00FE423D /* ContentView.swift */,
+				7CD4CAAD273E811200FE423D /* CustomView.swift */,
+				7CD4CAAB273E80FA00FE423D /* ViewController.swift */,
+			);
+			path = "Using Observable Object";
+			sourceTree = "<group>";
+		};
 		7CD4CA91273E80DF00FE423D = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				7CD4CA9D273E80DF00FE423D /* TestXApp.swift */,
-				7CD4CA9F273E80DF00FE423D /* ContentView.swift */,
-				7CD4CAAD273E811200FE423D /* CustomView.swift */,
-				7CD4CAAB273E80FA00FE423D /* ViewController.swift */,
+				7CA10A93273F642600AABBF6 /* Using Observable Object */,
+				7CA10A8C273F436900AABBF6 /* Using Coordinator */,
 				7CD4CAA1273E80E100FE423D /* Assets.xcassets */,
 				7CD4CAA3273E80E100FE423D /* Preview Content */,
 			);
@@ -143,8 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA10A90273F56B400AABBF6 /* SecondViewController.swift in Sources */,
 				7CD4CAAC273E80FA00FE423D /* ViewController.swift in Sources */,
+				7CA10A8E273F438500AABBF6 /* SecondView.swift in Sources */,
 				7CD4CAAE273E811200FE423D /* CustomView.swift in Sources */,
+				7CA10A92273F5DB000AABBF6 /* SecondCustomView.swift in Sources */,
 				7CD4CAA0273E80DF00FE423D /* ContentView.swift in Sources */,
 				7CD4CA9E273E80DF00FE423D /* TestXApp.swift in Sources */,
 			);
